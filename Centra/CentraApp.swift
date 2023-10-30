@@ -5,6 +5,8 @@
 //  Created by Evan Triadafillou on 2023/10/24.
 //
 
+// ENTRY POINT OF APP
+
 import SwiftUI
 
 @main
