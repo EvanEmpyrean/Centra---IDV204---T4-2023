@@ -25,16 +25,11 @@ struct Modules: View {
     var body: some View {
         
 // 􀋉 --- POSSIBLY ADD AUTO FILTER FOR TERMS BASED ON DATES DATA
-            
 // 􀋉 --- ADD FUNCTIONALITY TO SWITCH BETWEEN LIST AND GRID VIEW
-// 􀋉 --- CHECK IF LAZY V IS THE RIGHT THING TO USE IN THIS CASE
         
         ZStack {
             
         NavigationView{ // For the heading
-            
-// 􀋉 ---- To ADD ---- TITLE, BUTTONS, SEARCH BAR
-
             
             ScrollView{
                 LazyVStack(spacing: 12){
@@ -50,8 +45,6 @@ struct Modules: View {
 
 
                     } // END OF FOR EACH
-
-
                 } // END OF LAZY V-STACK
                 .padding(20)
             } // END OF SCROLL VIEW
@@ -74,14 +67,8 @@ struct Modules: View {
                         .foregroundColor(.accent)
                 }})
         }
-            
         } // End of Z-Stack
-
-        
     } // END OF BODY
-    
-    
-
 } // END OF VIEW
 
 #Preview {

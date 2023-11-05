@@ -59,7 +59,6 @@ struct SplashScreen: View {
                 }
             } /// Animation
         } // On Appear
-            
         } // END OF ELSE STATEMENT
     }
 }
