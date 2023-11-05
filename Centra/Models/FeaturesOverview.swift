@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct FeatureOverview: Identifiable {
+struct FeatureOverview: Identifiable { // trying to pass model as value, thi sis a blueprint
     var id = UUID()
     var featureSymbol: String
     var featureTitle: String

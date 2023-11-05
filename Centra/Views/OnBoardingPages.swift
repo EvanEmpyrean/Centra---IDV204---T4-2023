@@ -8,11 +8,46 @@
 import SwiftUI
 
 struct OnBoardingPages: View {
+    var featureOverview: FeatureOverview // parameter
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            
+            
+            Spacer()
+            
+            // =============== PAGE =====================
+            VStack {
+                Image(systemName: featureOverview.featureSymbol)
+                    .font(.system(size: 56))
+                    .fontWeight(.light)
+                    .imageScale(.large)
+                    .foregroundStyle(.accent)
+                    .padding(.bottom, 14)
+                
+                Text(featureOverview.featureTitle)
+                    .bold()
+                    .font(.title)
+                    .padding(.bottom, 5)
+                    .foregroundStyle(.titleText)
+                
+                Text(featureOverview.briefExplanation)
+                    .foregroundStyle(.bodyText)
+                
+            } // END OF V-STACK
+            .frame(width: 270)
+            .multilineTextAlignment(.center)
+            
+            
+            
+            // =============== BUTTON + LEGAL TEXT : EVERY PAGE =====================
+            
+            Spacer()
+            
+        }
     }
 }
-
+    
 #Preview {
-    OnBoardingPages()
+    OnBoardingPages(featureOverview: dummyFeatureOverview)
 }

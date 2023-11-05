@@ -16,7 +16,7 @@ struct Module: Identifiable {
     var term: Int
     var yearLevel: String
     
-    var cover: String
+    var cover: String // Make this grab the text from var title to find the image
 }
 
 // DUMMY MODULE FOR TESTING

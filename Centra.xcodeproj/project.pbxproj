@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71EECFC2AEF005400C1F775 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71EECFB2AEF005400C1F775 /* SplashScreen.swift */; };
+		A71EECFE2AEF235A00C1F775 /* Module Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71EECFD2AEF235A00C1F775 /* Module Components.swift */; };
 		A72015B62AE85CD900327963 /* CentraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72015B52AE85CD900327963 /* CentraApp.swift */; };
-		A72015B82AE85CD900327963 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72015B72AE85CD900327963 /* ContentView.swift */; };
 		A72015BA2AE85CDA00327963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72015B92AE85CDA00327963 /* Assets.xcassets */; };
 		A72015BD2AE85CDA00327963 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72015BC2AE85CDA00327963 /* Preview Assets.xcassets */; };
+		A75695D62AF7EE1C00FF4B31 /* Module Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75695D52AF7EE1C00FF4B31 /* Module Details.swift */; };
+		A75695D82AF7EE2700FF4B31 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75695D72AF7EE2700FF4B31 /* Settings.swift */; };
+		A7810E9C2AEEE0690032CA72 /* Modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7810E9B2AEEE0690032CA72 /* Modules.swift */; };
+		A7A2C2EB2AF01A7200C04116 /* Module Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2EA2AF01A7200C04116 /* Module Info.swift */; };
+		A7A2C2ED2AF120AB00C04116 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2EC2AF120AB00C04116 /* OnBoarding.swift */; };
+		A7A2C2EF2AF180D700C04116 /* OnBoardingPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2EE2AF180D700C04116 /* OnBoardingPages.swift */; };
+		A7A2C2F12AF1835300C04116 /* FeaturesOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2F02AF1835300C04116 /* FeaturesOverview.swift */; };
+		A7A2C2F32AF1C65000C04116 /* Modules Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2F22AF1C65000C04116 /* Modules Data.swift */; };
+		A7A2C2F82AF1E45800C04116 /* AboutModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2F72AF1E45800C04116 /* AboutModule.swift */; };
+		A7A2C2FA2AF1E4E100C04116 /* SpecificModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2F92AF1E4E100C04116 /* SpecificModule.swift */; };
+		A7A2C2FC2AF2717400C04116 /* FeaturesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C2FB2AF2717400C04116 /* FeaturesDetails.swift */; };
+		A7FB5A112AEF3BA600130273 /* PrimaryNavTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB5A102AEF3BA600130273 /* PrimaryNavTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A71EECFB2AEF005400C1F775 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		A71EECFD2AEF235A00C1F775 /* Module Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Module Components.swift"; sourceTree = "<group>"; };
 		A72015B22AE85CD900327963 /* Centra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Centra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72015B52AE85CD900327963 /* CentraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentraApp.swift; sourceTree = "<group>"; };
-		A72015B72AE85CD900327963 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A72015B92AE85CDA00327963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72015BC2AE85CDA00327963 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A75695D52AF7EE1C00FF4B31 /* Module Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Module Details.swift"; sourceTree = "<group>"; };
+		A75695D72AF7EE2700FF4B31 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A7810E9B2AEEE0690032CA72 /* Modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modules.swift; sourceTree = "<group>"; };
+		A7A2C2EA2AF01A7200C04116 /* Module Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Module Info.swift"; sourceTree = "<group>"; };
+		A7A2C2EC2AF120AB00C04116 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		A7A2C2EE2AF180D700C04116 /* OnBoardingPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPages.swift; sourceTree = "<group>"; };
+		A7A2C2F02AF1835300C04116 /* FeaturesOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesOverview.swift; sourceTree = "<group>"; };
+		A7A2C2F22AF1C65000C04116 /* Modules Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modules Data.swift"; sourceTree = "<group>"; };
+		A7A2C2F72AF1E45800C04116 /* AboutModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModule.swift; sourceTree = "<group>"; };
+		A7A2C2F92AF1E4E100C04116 /* SpecificModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificModule.swift; sourceTree = "<group>"; };
+		A7A2C2FB2AF2717400C04116 /* FeaturesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesDetails.swift; sourceTree = "<group>"; };
+		A7FB5A102AEF3BA600130273 /* PrimaryNavTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryNavTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				A72015B52AE85CD900327963 /* CentraApp.swift */,
-				A72015B72AE85CD900327963 /* ContentView.swift */,
+				A7810E972AEEDED20032CA72 /* Scenes */,
+				A7810E9A2AEEDF2C0032CA72 /* Views */,
+				A7810E992AEEDF1D0032CA72 /* Data */,
+				A7810E982AEEDEE50032CA72 /* Models */,
 				A72015B92AE85CDA00327963 /* Assets.xcassets */,
 				A72015BB2AE85CDA00327963 /* Preview Content */,
 			);
@@ -65,6 +94,56 @@
 				A72015BC2AE85CDA00327963 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7810E972AEEDED20032CA72 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A7810E9B2AEEE0690032CA72 /* Modules.swift */,
+				A71EECFB2AEF005400C1F775 /* SplashScreen.swift */,
+				A7A2C2EC2AF120AB00C04116 /* OnBoarding.swift */,
+				A75695D52AF7EE1C00FF4B31 /* Module Details.swift */,
+				A75695D72AF7EE2700FF4B31 /* Settings.swift */,
+				A7A2C2F62AF1E3C500C04116 /* Specific Module */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A7810E982AEEDEE50032CA72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2C2EA2AF01A7200C04116 /* Module Info.swift */,
+				A7A2C2F02AF1835300C04116 /* FeaturesOverview.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7810E992AEEDF1D0032CA72 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2C2F22AF1C65000C04116 /* Modules Data.swift */,
+				A7A2C2FB2AF2717400C04116 /* FeaturesDetails.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A7810E9A2AEEDF2C0032CA72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2C2EE2AF180D700C04116 /* OnBoardingPages.swift */,
+				A71EECFD2AEF235A00C1F775 /* Module Components.swift */,
+				A7FB5A102AEF3BA600130273 /* PrimaryNavTabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7A2C2F62AF1E3C500C04116 /* Specific Module */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2C2F72AF1E45800C04116 /* AboutModule.swift */,
+				A7A2C2F92AF1E4E100C04116 /* SpecificModule.swift */,
+			);
+			path = "Specific Module";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72015B82AE85CD900327963 /* ContentView.swift in Sources */,
+				A7FB5A112AEF3BA600130273 /* PrimaryNavTabBar.swift in Sources */,
+				A71EECFC2AEF005400C1F775 /* SplashScreen.swift in Sources */,
+				A7A2C2F32AF1C65000C04116 /* Modules Data.swift in Sources */,
+				A71EECFE2AEF235A00C1F775 /* Module Components.swift in Sources */,
+				A7810E9C2AEEE0690032CA72 /* Modules.swift in Sources */,
+				A7A2C2EB2AF01A7200C04116 /* Module Info.swift in Sources */,
+				A7A2C2ED2AF120AB00C04116 /* OnBoarding.swift in Sources */,
+				A7A2C2F82AF1E45800C04116 /* AboutModule.swift in Sources */,
+				A7A2C2EF2AF180D700C04116 /* OnBoardingPages.swift in Sources */,
+				A75695D82AF7EE2700FF4B31 /* Settings.swift in Sources */,
+				A7A2C2FA2AF1E4E100C04116 /* SpecificModule.swift in Sources */,
+				A7A2C2FC2AF2717400C04116 /* FeaturesDetails.swift in Sources */,
 				A72015B62AE85CD900327963 /* CentraApp.swift in Sources */,
+				A7A2C2F12AF1835300C04116 /* FeaturesOverview.swift in Sources */,
+				A75695D62AF7EE1C00FF4B31 /* Module Details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

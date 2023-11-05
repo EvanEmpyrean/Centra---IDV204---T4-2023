@@ -11,9 +11,21 @@ import SwiftUI
 
 @main
 struct CentraApp: App {
+    
+    // FOR SHOWING ONBOARDING SCREEN ONCE
+    @AppStorage("showOnboardingScreen") var showOnboardingScreen: Bool = false
+
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            // If True
+            if(showOnboardingScreen){
+                SplashScreen()
+            // If False
+            } else {
+                OnBoarding()
+            }
         }
     }
 }
